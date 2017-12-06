@@ -1,0 +1,17 @@
+/* BOOTSTRAP SAAS */
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* MATERIAL DESIGN ICONS */
+$mdi-font-path: "~mdi/fonts/";
+@import "~mdi/scss/materialdesignicons";
+
+/* LAYOUT */
+@import 'helpers';
+@import 'layout';
+@import 'form';
+@import 'table';
+
+/* COMPONENTS */
+@import 'panels';
+@import 'element-ui';

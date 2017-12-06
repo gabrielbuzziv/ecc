@@ -1,0 +1,20 @@
+table {
+    &.table {
+        tr {
+            &.carencia {
+                td {
+                    background: #eee;
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                th,
+                td {
+                    background: $brand-warning;
+                }
+            }
+        }
+    }
+}

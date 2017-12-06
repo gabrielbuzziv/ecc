@@ -1,0 +1,18 @@
+form {
+    .form-group {
+        input[type=text] {
+            &.form-control {
+                height: 50px;
+                line-height: 50px;
+            }
+        }
+
+        .btn {
+            height: 40px;
+            line-height: 40px;
+            padding: 0 20px;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+}
